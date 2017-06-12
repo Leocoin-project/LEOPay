@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Copay",
+  "description": "A secure LEOcoin wallet for friends and companies",
+  "version": "APP_VERSION",
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "notifications",
+    "videoCapture",
+    "webview"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["initial.js"]
+    }
+  },
+  "icons": {
+    "128": "img/icons/icon-chrome-128.png"
+  }
+}
