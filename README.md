@@ -26,7 +26,7 @@ For a list of frequently asked questions please visit the [LEOPay FAQ](https://g
 Clone the repo and open the directory:
 
 ```sh
-git clone https://github.com/LEOcoinofficial/LEOPay
+git clone https://github.com/Leocoin-project/LEOPay
 cd LEOPay
 ```
 
