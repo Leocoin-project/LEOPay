@@ -94,7 +94,7 @@ if [ ! -d $PROJECT ]; then
   fi
 
   if [ $CURRENT_OS == "ANDROID" ]; then
-    cordova plugin add https://github.com/phonegap/phonegap-plugin-push.git#1.2.3
+    cordova plugin add https://github.com/phonegap/phonegap-plugin-push.git#1.2.0
     checkOK
   fi
 
@@ -110,7 +110,7 @@ if [ ! -d $PROJECT ]; then
   cordova plugin add https://github.com/apache/cordova-plugin-statusbar.git#916cccc2c00a1b7c77e2e738c83e74a22bdd55e7
   checkOK
 
-  cordova plugin add https://github.com/cmgustavo/Custom-URL-scheme.git --variable URL_SCHEME=bitcoin --variable SECOND_URL_SCHEME=copay
+  cordova plugin add https://github.com/cmgustavo/Custom-URL-scheme.git#8ea3f53ce4faecf5ae3ee93b908134ccd03a4888 --variable URL_SCHEME=LEOcoin --variable SECOND_URL_SCHEME=copay
   checkOK
 
   cordova plugin add https://github.com/apache/cordova-plugin-inappbrowser.git#0f5de8524f8f83c52e10d32da1d45f102086b5dd
@@ -127,7 +127,7 @@ if [ ! -d $PROJECT ]; then
   cordova prepare
   checkOK
 
-  cordova plugin add https://github.com/MadrinX/cordova-progress-dialog.git#702cd341ab791ad8e12b627ac575812f24e9f96c
+  cordova plugin add https://github.com/roberthovhannisyan/SpinnerDialog.git#2ee04247430c37531b83b31cb38c512953200257
   checkOK
 
   cordova plugin add https://github.com/apache/cordova-plugin-dialogs.git#3b5cc87e7c8b15cbb91c77c216c766917aa007c7
