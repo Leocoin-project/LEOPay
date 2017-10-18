@@ -12,7 +12,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'http://bws.leocoin.org/bws/api',
+      url: 'https://bws.leocoin.org/bws/api',
     },
 
     // wallet default config

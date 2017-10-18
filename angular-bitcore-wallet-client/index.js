@@ -34,7 +34,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'http://bws.leocoin.org/bws/api',
+        baseUrl: opts.bwsurl || 'https://bws.leocoin.org/bws/api',
         verbose: opts.verbose,
         transports: ['polling'],
       });
